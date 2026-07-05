@@ -1,15 +1,23 @@
 <!-- GitHub එකෙහි announcement.txt ඇතුළත ලියන කේතය -->
 <style>
 @keyframes liyasiSpecial {
-    0% { opacity: 0; transform: scale(0.8); }
-    50% { opacity: 1; transform: scale(1); text-shadow: 0 0 10px #ff0080; }
-    100% { opacity: 0; transform: scale(0.8); }
+    0% { opacity: 0; transform: scale(0.95); }
+    50% { opacity: 1; transform: scale(1); text-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080; }
+    100% { opacity: 0; transform: scale(0.95); }
 }
 .liyasi-special-animate {
+    display: inline-block !important;
+    width: 100% !important;
+    text-align: center !important;
+    /* Responsive Font-Size: මොබයිල් එකේදී 12px දක්වා කුඩා වන අතර ඩෙක්ස්ටොප් එකේදී 15px දක්වා ලස්සනට දික් වේ */
+    font-size: clamp(12px, 3vw, 15px) !important;
+    line-height: 1.4 !important;
     animation: liyasiSpecial 4s infinite ease-in-out;
     color: #ff0080 !important;
-    font-weight: bold;
+    font-weight: bold !important;
+    box-sizing: border-box !important;
+    padding: 0 10px !important;
 }
 </style>
 
-<span class="liyasi-special-animate">🚨 අපේ අලුත්ම ඇනිමේෂන් නිවේදනය මෙන්න!</span>
+<span class="liyasi-special-animate">🚨 වෙබ් පිටුව Update වෙමින් පවති!</span>
