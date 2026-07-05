@@ -1,1 +1,15 @@
-update වෙමින් පවති
+<!-- GitHub එකෙහි announcement.txt ඇතුළත ලියන කේතය -->
+<style>
+@keyframes liyasiSpecial {
+    0% { opacity: 0; transform: scale(0.8); }
+    50% { opacity: 1; transform: scale(1); text-shadow: 0 0 10px #ff0080; }
+    100% { opacity: 0; transform: scale(0.8); }
+}
+.liyasi-special-animate {
+    animation: liyasiSpecial 4s infinite ease-in-out;
+    color: #ff0080 !important;
+    font-weight: bold;
+}
+</style>
+
+<span class="liyasi-special-animate">🚨 අපේ අලුත්ම ඇනිමේෂන් නිවේදනය මෙන්න!</span>
